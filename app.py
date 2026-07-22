@@ -18,7 +18,7 @@ app = FastAPI(
 # Load Trained Model
 # ======================================================
 
-MODEL_PATH = "heart_disease_model.pkl"
+MODEL_PATH = "heart_disease_model .pkl"
 
 try:
     model = joblib.load(MODEL_PATH)
